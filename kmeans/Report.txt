@@ -1,0 +1,22 @@
+Yalamanchili Vamsi krishna
+1001554490
+
+->Performed using Python.
+
+->Files Submitted
+ 	-kmeans.py
+ 	-Report.txt
+	-Readme.txt
+
+->Code Structure:
+	-We load the given iris data.
+	-Take the random feautures and call k-means algorthim with the features and the the number of clusters that we want the data to be grouped into.
+	-Assign each data point to the cluster whose center is the smallest distance from the data point(calculate_distance)  
+	-The centroids are recomputed. This is done by taking the mean of all data points assigned to that centroid's cluster.Compute new cluster centers – set the position of the cluster center to the mean of all data points belonging to that cluster(centroid_new)
+	-Compare new centers to old centers, If the new centers are the same as the old centers, then the algorithm converges. The clusters and centers computed in above step are the final clusters and centers. If they are not the same, again repeat the steps.
+	-Used different k values with the algorithm.From the results obtained,the number of clusters for which the program works very well is 3.To justify, if we look at the dataset, we see there are 3 groups to which data belongs.
+
+->To Run:
+	-Set the path
+	-python kmeans.py
+
